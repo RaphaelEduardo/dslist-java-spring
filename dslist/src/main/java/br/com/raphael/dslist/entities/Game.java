@@ -24,8 +24,13 @@ public class Game {
 	private String platforms;
 	private Double score;
 	private String imgUrl;
+	
+	//vai gerar um TEXT, inves de um VARCHAR (que é limitado a 255 caracteres)
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
-	private String longDescription;
+
+	@Column(columnDefinition = "TEXT")
+	private String longDescription;  
 
 	public Game() {
 	}
