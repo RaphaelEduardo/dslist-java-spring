@@ -4,7 +4,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import br.com.raphael.dslist.dto.GameDTO;
 import br.com.raphael.dslist.dto.GameMinDTO;
 import br.com.raphael.dslist.entities.Game;
 import br.com.raphael.dslist.repositories.GameRepository;
@@ -14,6 +16,14 @@ public class GameService {
 
 	@Autowired
 	private GameRepository gameRepository;
+	
+	//Anotação do Spring
+	@Transactional(readOnly = true) //só leitura, sem escrita
+	public GameDTO findById(Long id) {
+		Game result = gameRepository.findById(id).get(); // o retorno é Optional, logo se usa .get() para poder pegar o dado.
+		GameDTO dto = new GameDTO(result);
+		return dto;
+	}
 	
 	public List<GameMinDTO> findAll() {
 		List<Game> result = gameRepository.findAll();
@@ -26,5 +36,7 @@ public class GameService {
 		List<GameMinDTO> dto = result.stream().map(x -> new GameMinDTO(x)).toList();
 		return dto;
 	}
+	
+	
 	
 }
