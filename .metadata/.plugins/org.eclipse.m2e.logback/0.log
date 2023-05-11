@@ -778,3 +778,12 @@ java.io.FileNotFoundException: C:\WorkSpace\PROJETOS\Back-end\intensivao-java-sp
 2023-05-11 11:45:49,801 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WorkSpace\PROJETOS\Back-end\intensivao-java-spring\dslist\src\test\resources
 =======
 >>>>>>> 7b7b69251875cdda6c6af80dc5e92d8ece0d6db8
+2023-05-11 11:52:46,164 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-11 11:53:14,602 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-11 11:53:14,692 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-05-11 11:53:14,765 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-11 11:53:14,796 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-11 11:53:14,796 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WorkSpace\PROJETOS\Back-end\intensivao-java-spring\dslist\src\test\resources
+2023-05-11 11:53:24,799 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-11 11:53:24,821 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-05-11 11:53:24,833 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
