@@ -737,6 +737,7 @@
 2023-05-11 10:45:31,765 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-05-11 10:45:31,774 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-05-11 10:45:31,775 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WorkSpace\PROJETOS\Back-end\intensivao-java-spring\dslist\src\test\resources
+<<<<<<< HEAD
 2023-05-11 11:41:28,612 [Worker-57: Building] ERROR o.e.m.jdt.internal.BuildPathManager - Can't save classpath container state for dslist
 java.io.FileNotFoundException: C:\WorkSpace\PROJETOS\Back-end\intensivao-java-spring\.metadata\.plugins\org.eclipse.m2e.jdt\dslist.container (O sistema não pode encontrar o caminho especificado)
 	at java.base/java.io.FileOutputStream.open0(Native Method)
@@ -775,3 +776,5 @@ java.io.FileNotFoundException: C:\WorkSpace\PROJETOS\Back-end\intensivao-java-sp
 2023-05-11 11:45:49,779 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-05-11 11:45:49,801 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-05-11 11:45:49,801 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WorkSpace\PROJETOS\Back-end\intensivao-java-spring\dslist\src\test\resources
+=======
+>>>>>>> 7b7b69251875cdda6c6af80dc5e92d8ece0d6db8

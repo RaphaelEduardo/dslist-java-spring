@@ -1,7 +1,0 @@
-package br.com.raphaeleduardo.demo.controllers;
-
-import org.springframework.stereotype.Controller;
-
-public class ProductController {
-
-}

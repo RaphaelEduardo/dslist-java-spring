@@ -1,5 +1,0 @@
-package br.com.raphaeleduardo.demo.repositories;
-
-public interface ProductRepository {
-
-}
