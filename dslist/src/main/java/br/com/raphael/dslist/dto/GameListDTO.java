@@ -1,0 +1,27 @@
+package br.com.raphael.dslist.dto;
+
+import br.com.raphael.dslist.entities.GameList;
+
+public class GameListDTO {
+
+	private Long id;
+	private String name;
+
+	public GameListDTO() {
+	}
+
+	// Como não utilizou o BeanUtils, só precisa gerar os Getters
+	public GameListDTO(GameList entity) {
+		id = entity.getId();
+		name = entity.getName();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+}
