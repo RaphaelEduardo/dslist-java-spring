@@ -774,3 +774,4 @@ java.io.FileNotFoundException: C:\WorkSpace\PROJETOS\Back-end\intensivao-java-sp
 2023-05-11 11:45:49,716 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
 2023-05-11 11:45:49,779 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-05-11 11:45:49,801 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-11 11:45:49,801 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WorkSpace\PROJETOS\Back-end\intensivao-java-spring\dslist\src\test\resources
