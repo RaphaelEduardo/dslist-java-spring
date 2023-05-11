@@ -1,0 +1,29 @@
+package br.com.raphael.dslist.dto;
+
+import org.springframework.beans.BeanUtils;
+
+import br.com.raphael.dslist.entities.Game;
+
+public class GameDTO {
+
+	
+	private Long id;
+	private String title;
+	private Integer year; 
+	private String genre;
+	private String platforms;
+	private Double score;
+	private String imgUrl;
+	private String shortDescription;
+	private String longDescription;  
+
+	public GameDTO() {
+	}
+
+	public GameDTO(Game entity) {
+	// Macete para copiar todos os atributos de Game para GameDTO.
+	BeanUtils.copyProperties(entity, this);	
+	}
+
+	
+}

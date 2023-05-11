@@ -1,0 +1,5 @@
+package br.com.raphael.dslist.projections;
+
+public interface GameMinProjection {
+
+}
