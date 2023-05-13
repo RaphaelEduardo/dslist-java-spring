@@ -10,12 +10,7 @@ import br.com.raphael.dslist.projections.GameMinProjection;
 
 public interface GameRepository extends JpaRepository<Game, Long> {
 
-	/*
-	 *  Consulta customizada no SQL
-	 *  nativeQuery = true (faz funcionar a consulta na linguagem SQL) - O resultado da consulta tem de ser uma interface.
-	 *  
-	 */
-	@Query(nativeQuery = true , value = """
+	@Query(nativeQuery = true, value = """
 			SELECT tb_game.id, tb_game.title, tb_game.game_year AS gameYear, tb_game.img_url AS imgUrl,
 			tb_game.short_description AS shortDescription, tb_belonging.position
 			FROM tb_game
@@ -23,6 +18,7 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 			WHERE tb_belonging.list_id = :listId
 			ORDER BY tb_belonging.position
 				""")
-	List<GameMinProjection> searchByList(Long listId);
 	
+	List<GameMinProjection> searchByList(Long listId);
+
 }
